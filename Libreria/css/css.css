@@ -1,0 +1,194 @@
+    
+         * {
+        margin:0px;
+        padding:0px;
+      }
+      body, html {
+        height: 100%;
+        background-color: #EEEEEE;
+      }
+      #header-prin{
+        margin:auto;
+        width:100%;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      #logo {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background: #323639;
+           /*background: #00a4d3 para color celeste*/
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          padding-right: 30px;
+          margin: 0;
+          padding-left: 30;
+
+        }
+        #logo2{
+          width: 50px;
+          height: 50px;
+        }
+        #nava {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background: #323639;
+           /*background: #00a4d3 para color celeste*/
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          padding-left: 850px;
+          padding-right: 30px;
+          margin: 0;
+        }
+      #nava ul, ol {
+        list-style:none;
+      }
+      
+      #nava li  {
+        text-align: right;
+        background-color:#323639;
+        color:#fff;
+        text-decoration:none;
+        
+        display:block;
+      
+      }
+      #nava li a {
+        text-align: right;
+        background-color:#323639;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 10px;
+        display:block;
+      
+      }
+      
+      #nava li a:hover {
+        background-color:#000000;
+
+      }
+      
+      #nava li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      #nava li:hover > ul {
+        display:block;
+      }
+      
+      #nava li ul li {
+        position:relative;
+      }
+      
+      #nava li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+      #buscar {
+        padding: 7px;
+        background: #323639;
+        border-radius: 5px;
+        outline: none;
+      } 
+      
+   
+    footer {
+        background-color:#1A1A1A;
+        height: 40%;
+        color: white;
+        padding: 15px;
+        display: block;
+
+      }
+
+      .main1 { 
+        display:flex;
+        margin:0 auto;
+      }
+
+      a img:hover {
+          color: #fff;
+      }
+      #youtube {
+        width: 35px;
+        height: 35px;
+      }
+      .rowx {
+        text-align: center;
+      }
+      #banner {
+        text-align: center;
+      }
+      /* menu secundario de categorias */ 
+      #hr{
+       height:4px; 
+       border:none; 
+       color:#000; 
+       background-color:#323639; 
+       width:90%; 
+       text-align:center; 
+       margin: 0 auto;
+     }
+       /* #nav-menu {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background: #514C4B;
+          text-align: center;
+          padding-left: 80px;
+          padding-right: 30px;
+          margin: 0 auto;
+          width: 80%;
+
+        }
+      ul, ol {
+        list-style:none;
+      }
+      
+      #nav-menu > li {
+    
+
+      }
+      #nav-menu li  {
+        text-align: right;
+        background-color:#514C4B;
+        color:#fff;
+        text-decoration:none;
+        
+        display:block;
+      
+      }
+      #nav-menu li a {
+        text-align: right;
+        background-color:#514C4B;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+      
+      }
+      
+      #nav-menu li a:hover {
+        background-color:#000000;
+
+      }
+      
+      #nav-menu li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      #nav-menu li:hover > ul {
+        display:block;
+      }
+      
+      #nav-menu li ul li {
+        position:relative;
+      }
+      
+      #nav-menu li ul li ul {
+        right:-140px;
+        top:0px;
+      }*/
